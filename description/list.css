@@ -1,0 +1,44 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container for rectangles */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Gap between rectangles */
+    justify-content: center;
+    width: calc((400px * 2) + 40px); /* Adjust width for two columns */
+  }
+  
+  /* Individual rectangle styles */
+  .rectangle {
+    width: 400px; /* Width of the rectangle */
+    height: 600px; /* Height of the rectangle (2:3 ratio) */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Crop overflowing image edges */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle img {
+    width: 100%; /* Ensure the image fits the rectangle */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio while covering the rectangle */
+  }
+  
