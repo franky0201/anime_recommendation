@@ -9,20 +9,23 @@
 <body>
   <div class="container">
     <div class="image-section">
-      <img src="1.png" alt="Image Placeholder">
+      <!-- 이미지는 동적으로 변경될 예정 -->
+      <img id="anime-image" src="" alt="Image Placeholder">
     </div>
     <div class="content-section">
       <div class="youtube-box">
-        <iframe width="1236" height="695" src="https://www.youtube.com/embed/elyXcwunIYA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      </div>
+        <!-- 유튜브 링크도 동적으로 변경될 예정 -->
+        <iframe id="anime-video" width="1236" height="695" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
       <div class="description-box">
-        <p class="title">애니메이션 제목</p>
-        <p class="episode">총 n화</p>
-        <p class="content">
-            이곳은 애니메이션의 간단한 설명이 들어갈 부분입니다. 여러 줄로 구성된 설명이 들어갈 수 있습니다. 
-            재미있고 유익한 정보를 포함하여 애니메이션을 소개합니다.
-        </p>
-    </div>
+        <!-- 이 부분도 API로 받은 데이터로 동적 변경 -->
+        <p id="anime-title" class="title"></p>
+        <p id="anime-episode" class="episode"></p>
+        <p id="anime-description" class="content"></p>
+      </div>
     </div>
   </div>
+
+  <script src="description.js"></script>
 </body>
 </html>
