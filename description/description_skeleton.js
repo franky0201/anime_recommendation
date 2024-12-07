@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('anime-title').innerText = anime.title;
   document.getElementById('anime-episode').innerText = `총 ${anime.episodes}화`;
   document.getElementById('anime-description').innerText = anime.description;
-  document.getElementById('anime-image').src = anime.image;
+  document.getElementById('anime-image').src = '/' + anime.image;
   document.getElementById('anime-video').src = anime.videoUrl;
 });
