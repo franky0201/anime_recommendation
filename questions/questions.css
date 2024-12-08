@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbit&display=swap'); /*폰트왜안돼개씨발*/
+
 /* 기본 스타일 */
 body {
+    font-family: "Orbit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;

@@ -12,7 +12,7 @@ const AnimeEnum = {
       episodes: 50,
       description: "얻게 되면 그 사람의 소원을 들어주는 '성배'. \n'마술사'들은 신화, 역사의 영웅들을 '서번트'로 불러내어 성배를 갖기 위해 전쟁을 시작해요. \n영웅담이나 역사에 관심이 있다면 더 재밌게 볼 수 있어요!",
       image: "텀프자료/ANIME/페이트.jpg",
-      videoUrl: "https://www.youtube.com/embed/gCnCFtbY0ZI"
+      videoUrl: "https://www.youtube.com/embed/0VnvdO3WJnU"
     },
     {
         title: "제로의 사역마",
@@ -465,7 +465,7 @@ const AnimeEnum = {
       {
         title: "임금님 랭킹",
         episodes: 23,
-        description: "장애를 가지고 태어난 왕자 봇지.\n봇지는 '카케'라는 동료와 만나게 되어 둘이서 모험을 떠나게 되는 스토리에요. \n사람에 따라서 스토리가 호불호가 갈릴 수 있어요. 주인공의 성장, 교훈적인 스토리가 보고싶다면 추천해요!",
+        description: "장애를 가지고 태어난 왕자 봇지.\n봇지는 '카게'라는 동료와 만나게 되어 둘이서 모험을 떠나게 되는 스토리에요. \n사람에 따라서 스토리가 호불호가 갈릴 수 있어요. 주인공의 성장, 교훈적인 스토리가 보고싶다면 추천해요!",
         image: "텀프자료/ANIME/임금님랭킹.jpg",
         videoUrl: "https://www.youtube.com/embed/example1"
       },
