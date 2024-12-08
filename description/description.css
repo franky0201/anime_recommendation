@@ -8,12 +8,11 @@ body, div, p, img, iframe {
   }
   
   body {
-    font-family: "nanumgothic", sans-serif;;
+    font-family: "nanumgothic", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: Arial, sans-serif;
     background-color: #ffffff;
   }
   
