@@ -1,4 +1,3 @@
-
 function getTag(value,pageNum) {
     if (pageNum === '0'){
         location.href="../description/list.html";
