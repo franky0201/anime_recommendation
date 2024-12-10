@@ -1,5 +1,5 @@
 // 페이지가 로드되면 특정 애니메이션을 선택하여 화면에 표시
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {console.log(animes)
   // 원하는 애니메이션을 Enum을 사용해 선택
   const selectedAnime = AnimeEnum.ANIME_2; // ANIME_1 대신 ANIME_2, ANIME_3 등을 선택할 수 있음
   
@@ -13,3 +13,4 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('anime-image').src = '/' + anime.image;
   document.getElementById('anime-video').src = anime.videoUrl;
 });
+
