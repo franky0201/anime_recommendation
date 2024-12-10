@@ -1,44 +1,51 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body styles */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  /* Container for rectangles */
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Gap between rectangles */
-    justify-content: center;
-    width: calc((400px * 2) + 40px); /* Adjust width for two columns */
-  }
-  
-  /* Individual rectangle styles */
-  .rectangle {
-    width: 400px; /* Width of the rectangle */
-    height: 600px; /* Height of the rectangle (2:3 ratio) */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Crop overflowing image edges */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .rectangle img {
-    width: 100%; /* Ensure the image fits the rectangle */
-    height: 100%;
-    object-fit: cover; /* Maintain aspect ratio while covering the rectangle */
-  }
-  
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+/* 전체 페이지 스타일 */
+body {
+  font-family: "nanumgothic", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* 화면 중앙 정렬 */
+}
+
+/* 헤더 스타일 */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 포스터 컨테이너 스타일 */
+.anime-container {
+  display: flex;
+  flex-wrap: wrap; /* 행이 넘치면 다음 줄로 */
+  gap: 20px; /* 포스터 간 간격 */
+  justify-content: center; /* 가로 방향 중앙 정렬 */
+  max-width: 860px; /* 두 열 배치를 위해 400px * 2 + gap(20px) */
+}
+
+/* 개별 포스터 스타일 */
+.anime {
+  text-align: center;
+  width: 400px; /* 고정 너비 */
+  cursor: pointer; /* 클릭 가능하도록 포인터 표시 */
+}
+
+.anime img {
+  width: 400px; /* 고정된 가로 크기 */
+  height: 600px; /* 고정된 세로 크기 */
+  object-fit: cover; /* 이미지 비율 유지 */
+  border-radius: 10px; /* 이미지 모서리 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.anime h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
