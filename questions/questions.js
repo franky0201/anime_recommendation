@@ -6,14 +6,20 @@ function getTag(value,pageNum) {
         console.log('세션 저장 완료');
         location.href="questions"+pageNum+".html";
     
-    if (pageNum === '0'){
-        location.href="../description/list.html";
-        return
+        if (pageNum === '0'){
+            location.href="../description/list.html";
+            return
     }
     
     }
     else{
-        location.href="questions"+pageNum+".html";
+        if (pageNum === '0') {
+            location.href="../description/list.html";
+            return
+        }
+        else{
+            location.href="questions"+pageNum+".html";
+        }
     }
 }
-  
+
