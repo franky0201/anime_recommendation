@@ -131,3 +131,9 @@ https://github.com/user-attachments/assets/ea3a9a20-2ce2-4bbd-b9ea-7428cd5643b3
 - 5등분의 신부
 - 마슐
 - 이세계 콰르텟
+
+
+## special thanks
+
+- 19 조동영
+- 23 이형진
