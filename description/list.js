@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector('.anime-container');
 
   if (filteredAnimes.length === 0) {
-    container.innerHTML = "<p>추천할 애니메이션이 없습니다.</p>";
+    container.innerHTML = "<p>추천할 애니메이션이 없습니다...\n주인공 일행의 모험이 주가 되는 작품은 단편인 경우가 별로 없어요..</p>";
   } else {
     filteredAnimes.forEach(anime => {
       const animePoster = `
